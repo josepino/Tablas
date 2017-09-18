@@ -14,6 +14,8 @@
 		AE2C52621F48935F00C95F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C52601F48935F00C95F9D /* LaunchScreen.storyboard */; };
 		AE2C526D1F48935F00C95F9D /* TablasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C526C1F48935F00C95F9D /* TablasTests.swift */; };
 		AE2C52781F48935F00C95F9D /* TablasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C52771F48935F00C95F9D /* TablasUITests.swift */; };
+		AE2C52861F48A27000C95F9D /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */; };
+		AE78FEBC1F5DD593009B42E5 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = AE78FEBB1F5DD593009B42E5 /* PDF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		AE2C52731F48935F00C95F9D /* TablasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C52771F48935F00C95F9D /* TablasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablasUITests.swift; sourceTree = "<group>"; };
 		AE2C52791F48935F00C95F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
+		AE2C52871F48BC5B00C95F9D /* ProtocolosDelegados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolosDelegados.playground; sourceTree = "<group>"; };
+		AE78FEBB1F5DD593009B42E5 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +104,13 @@
 			children = (
 				AE2C52571F48935F00C95F9D /* AppDelegate.swift */,
 				AE2C52591F48935F00C95F9D /* ViewController.swift */,
+				AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */,
 				AE2C525B1F48935F00C95F9D /* Main.storyboard */,
 				AE2C525E1F48935F00C95F9D /* Assets.xcassets */,
 				AE2C52601F48935F00C95F9D /* LaunchScreen.storyboard */,
 				AE2C52631F48935F00C95F9D /* Info.plist */,
+				AE78FEBB1F5DD593009B42E5 /* PDF */,
+				AE2C52871F48BC5B00C95F9D /* ProtocolosDelegados.playground */,
 			);
 			path = Tablas;
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 				TargetAttributes = {
 					AE2C52531F48935F00C95F9D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85Y8K9HLZ9;
 						ProvisioningStyle = Automatic;
 					};
 					AE2C52671F48935F00C95F9D = {
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2C52621F48935F00C95F9D /* LaunchScreen.storyboard in Resources */,
+				AE78FEBC1F5DD593009B42E5 /* PDF in Resources */,
 				AE2C525F1F48935F00C95F9D /* Assets.xcassets in Resources */,
 				AE2C525D1F48935F00C95F9D /* Main.storyboard in Resources */,
 			);
@@ -260,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2C525A1F48935F00C95F9D /* ViewController.swift in Sources */,
+				AE2C52861F48A27000C95F9D /* ViewController2ViewController.swift in Sources */,
 				AE2C52581F48935F00C95F9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85Y8K9HLZ9;
 				INFOPLIST_FILE = Tablas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jp.Tablas;
@@ -424,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85Y8K9HLZ9;
 				INFOPLIST_FILE = Tablas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jp.Tablas;
@@ -505,6 +518,7 @@
 				AE2C527E1F48935F00C95F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2C527F1F48935F00C95F9D /* Build configuration list for PBXNativeTarget "TablasTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +527,7 @@
 				AE2C52811F48935F00C95F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2C52821F48935F00C95F9D /* Build configuration list for PBXNativeTarget "TablasUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				AE2C52841F48935F00C95F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
