@@ -9,13 +9,42 @@
 import UIKit
 
 class ViewController2ViewController: UIViewController {
+    
+    
+    @IBOutlet var vistaWeb: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        labelTitulo.text = nombrePdfRecibido!
-
-        // Do any additional setup after loading the view.
+        
+        habilitarZoom()
+        mostrarPdf()
+        
     }
+    
+    
+    func habilitarZoom(){
+        vistaWeb.scalesPageToFit = true
+        
+    }
+    
+    
+    func mostrarPdf () {
+        //1: Direccion del archivo pdf
+        let direccionPdf = URL(fileURLWithPath: Bundle.main.path(forResource: nombrePdfRecibido!, ofType: "pdf", inDirectory:"PDF")!)
+        
+        //2: Transformar archivo pdf a data Una vez que tenemos el archivo pdf hay que hacer una transformacion
+        let datosPdf = try? Data(contentsOf: direccionPdf)
+        
+        
+        
+        //3: Mostrar datos en la vista web
+        
+        vistaWeb.load(datosPdf!, mimeType: "application/pdf", textEncodingName: "uf-8", baseURL: direccionPdf)
+        
+    }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -36,7 +65,7 @@ class ViewController2ViewController: UIViewController {
     
     
     
-    @IBOutlet weak var labelTitulo: UILabel!
+    
     
     var nombrePdfRecibido: String?
     

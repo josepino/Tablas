@@ -62,5 +62,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
+    
+    
+    // Para eliminar una fila
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        
+        return true
+        
+    }
+    
+    
+    
+    // Para eliminar una fila
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete {
+            contenidoCeldas.remove(at: indexPath.row)
+            tableView.reloadData()
+        }
+        
+    }
+    
+    
 }
 
