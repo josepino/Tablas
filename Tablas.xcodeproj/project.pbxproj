@@ -16,6 +16,7 @@
 		AE2C52781F48935F00C95F9D /* TablasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C52771F48935F00C95F9D /* TablasUITests.swift */; };
 		AE2C52861F48A27000C95F9D /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */; };
 		AE78FEBC1F5DD593009B42E5 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = AE78FEBB1F5DD593009B42E5 /* PDF */; };
+		AEE0AD931F7174B50074C6A1 /* 003-home-3.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0AD921F7174B50074C6A1 /* 003-home-3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
 		AE2C52871F48BC5B00C95F9D /* ProtocolosDelegados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolosDelegados.playground; sourceTree = "<group>"; };
 		AE78FEBB1F5DD593009B42E5 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
+		AEE0AD921F7174B50074C6A1 /* 003-home-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-home-3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AE2C52591F48935F00C95F9D /* ViewController.swift */,
 				AE2C52851F48A27000C95F9D /* ViewController2ViewController.swift */,
 				AE2C525B1F48935F00C95F9D /* Main.storyboard */,
+				AEE0AD921F7174B50074C6A1 /* 003-home-3.png */,
 				AE2C525E1F48935F00C95F9D /* Assets.xcassets */,
 				AE2C52601F48935F00C95F9D /* LaunchScreen.storyboard */,
 				AE2C52631F48935F00C95F9D /* Info.plist */,
@@ -243,6 +246,7 @@
 			files = (
 				AE2C52621F48935F00C95F9D /* LaunchScreen.storyboard in Resources */,
 				AE78FEBC1F5DD593009B42E5 /* PDF in Resources */,
+				AEE0AD931F7174B50074C6A1 /* 003-home-3.png in Resources */,
 				AE2C525F1F48935F00C95F9D /* Assets.xcassets in Resources */,
 				AE2C525D1F48935F00C95F9D /* Main.storyboard in Resources */,
 			);

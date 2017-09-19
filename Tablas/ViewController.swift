@@ -40,6 +40,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let celda = UITableViewCell(style:UITableViewCellStyle.default, reuseIdentifier: "Cell")
         celda.textLabel?.text = contenidoCeldas[indexPath.row]
         
+        celda.imageView!.image = UIImage(named: "003-home-3.png")
+        
         return celda
     }
     
